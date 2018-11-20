@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+    "noImplicitAny": false,
+    "outDir": "./dist",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "types": ["node", "jest"],
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "~/*": ["src/*"],
+      "@mocks/*": ["mocks/*"]
+    }
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}

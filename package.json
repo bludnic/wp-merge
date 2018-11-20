@@ -1,0 +1,38 @@
+{
+  "name": "wp-merge",
+  "version": "0.0.1",
+  "description": "A better Wordpress Importer",
+  "main": "index.ts",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bludnic/wp-merge.git"
+  },
+  "keywords": [
+    "wordpress",
+    "importer",
+    "typescript"
+  ],
+  "author": "bludnic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bludnic/wp-merge/issues"
+  },
+  "homepage": "https://github.com/bludnic/wp-merge#readme",
+  "devDependencies": {
+    "@types/jest": "^23.3.9",
+    "@types/node": "^10.12.9",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "fs-extra": "^7.0.1"
+  }
+}
